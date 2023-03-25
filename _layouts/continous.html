@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<style>
+  .custom-container {
+    max-width: 100%; 
+    margin: 0 auto;
+  }
+
+  .two-column-continuous {
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 1px solid #ccc;
+  }
+
+  @media (max-width: 768px) {
+    .two-column-continuous {
+      column-count: 1;
+    }
+  }
+
+  .centered-image {
+    display: block;
+    margin: 1rem auto;
+    break-inside: avoid;
+  }
+</style>
+
+<div class="custom-container">
+  <div class="two-column-continuous">
+    {{ content }}
+  </div>
+</div>

@@ -1,18 +1,27 @@
 ---
-layout: page
+layout: two-column
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## First Column
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This is an example of content in the first column.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- Item 1
+- Item 2
+- Item 3
 
+Feel free to add more text, images, or other elements.
 
-[jekyll-organization]: https://github.com/jekyll
+<!-- column-break -->
+
+## Second Column
+
+This is an example of content in the second column.
+
+- Item A
+- Item B
+- Item C
+
+Feel free to add more text, images, or other elements.
