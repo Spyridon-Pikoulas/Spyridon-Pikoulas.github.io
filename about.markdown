@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Notebooks used in the assignment
+permalink: /notebooks/
 ---
 
 ## First Column
@@ -25,3 +25,9 @@ This is an example of content in the second column.
 - Item C
 
 Feel free to add more text, images, or other elements.
+
+## Notebook 3: Interactive Visualization
+
+This notebook was used to create the interactive Bokeh plot for the assignment
+
+[Download Notebook 3](/notebooks/interactive.ipynb)
