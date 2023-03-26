@@ -15,7 +15,7 @@ Mauris efficitur aliquam est, non lacinia diam bibendum ac. Sed eget odio in mi 
 
 Fusce vel elit id tellus consequat ullamcorper. Donec sollicitudin sapien vitae fermentum ornare. Donec laoreet ullamcorper tellus, ac bibendum ipsum molestie ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam suscipit dolor a odio lobortis, in consequat odio viverra.
 
-{% include interactive_small.html %}
+{% include interactive_small_tenderloin.html %}
 
 
 ## Conclusion
