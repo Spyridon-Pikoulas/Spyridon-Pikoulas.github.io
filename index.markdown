@@ -13,11 +13,9 @@ For this project we have chosen to focus on how the socioeconomic status  affect
 
 We will use the data in this report to calcualte an index of how a district fares, and plot the data in regards to this index.  This will be plotted with 
 
-$$1+2=4$$
+$$scaled\;crime\;count = \frac{crime\;count}{socioeconomic\;index}$$
 
 and will give an indication of how much the socioeconomic affects the rate of crime. We will visualize this with a mapping of this data using Chloropleth plots in order to see which districts are affected more by the index, and finally an interactive plot where we can see how the crime rate for the worst districts changes over time. This is done
-
-$$ x = y / 3 $$
 
 ## Results
 
