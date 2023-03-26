@@ -1,5 +1,5 @@
 ---
-layout: two-column
+layout: page
 title: About
 permalink: /about/
 ---
