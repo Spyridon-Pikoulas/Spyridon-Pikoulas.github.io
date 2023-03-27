@@ -73,7 +73,9 @@ Additionally, we also have information about education and poverty rates of each
 | Taraval    | 40                   | 11               |
 
 To calculate the index for each district, we normalized factors that positively influence the status and inverse normalized factors with a negative impact. Then, we applied this formula:
+
 $$status = 0.4*In+0.2*Po+0.2*Ed+0.2*Un $$ 
+
 with varying weights for each factor. The outcomes of our calculations are displayed on the below choropleth map.
 
 <img src="/images/Map.png"  width="1000" height="400">
@@ -81,7 +83,9 @@ with varying weights for each factor. The outcomes of our calculations are displ
 Upon examining the map, it becomes apparent that the Tenderloin district has the lowest socioeconomic status(biggest index) compared to the other districts.
 
 ## Results
-Now that we can see that Tenderloin is the district with the lowest socioeconomic status and highest relative crime rate in regards to the aforementioned index, we want to investigate whether there has been taken action against the high crime rate. We can figure this out through the data by plotting the crime rate in Tenderloin throughout the years. We will limit the years used in this plot to the same range used in the report, which is from 2012 to 2016. This plot will be made with Bokeh and it's interactive plotting Rangetool, so that we can see how the amount of crimes per week evolves over the years and so that we can see any possible trends. Since the data curve will be very noisy, we will plot an additional line where we have applied a Savitzky–Golay filter in order to smooth the curve.
+Now that we can see that Tenderloin is the district with the lowest socioeconomic status and highest relative crime rate in regards to the aforementioned index, we want to investigate whether there has been taken action against the high crime rate. We can figure this out through the data by plotting the crime rate in Tenderloin throughout the years.
+
+We will limit the years used in this plot to the same range used in the report, which is from 2012 to 2016. This plot will be made with Bokeh and it's interactive plotting Rangetool, so that we can see how the amount of crimes per week evolves over the years and so that we can see any possible trends. Since the data curve will be very noisy, we will plot an additional line where we have applied a Savitzky–Golay filter in order to smooth the curve.
 
 {% include interactive_small_tenderloin.html %}
 
@@ -90,4 +94,6 @@ Using this tool we can see that the overall trend is negative which indicates th
 
 ## Conclusion
 
-In this article, we have studied the crime rates of each district in San Fransico in regards to their size, and found that Tenderloin is the district with the highest crime density. We then investigated the socioeconomic status of each district in San Fransico, and calculated an index that is indicative of this status. Through this index we found that Tenderloin was also the district with the lowest amount of socioeconomic status. We also investigated whether action had been taken to reduce the amount of crime in Tenderloin through interactive plotting, and we discovered that there is a negative trend in crime rates in Tenderloin, indicating that it is indeed the case.
+In this article, we have studied the crime rates of each district in San Fransico in regards to their size, and found that Tenderloin is the district with the highest crime density. We then investigated the socioeconomic status of each district in San Fransico, and calculated an index that is indicative of this status. Through this index we found that Tenderloin was also the district with the lowest amount of socioeconomic status.
+
+We also investigated whether action had been taken to reduce the amount of crime in Tenderloin through interactive plotting, and we discovered that there is a negative trend in crime rates in Tenderloin, indicating that it is indeed the case.
