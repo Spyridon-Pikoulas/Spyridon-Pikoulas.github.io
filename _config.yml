@@ -22,7 +22,10 @@ title: Effect of Socioeconomic Status on Crime rates
 # email: your-email@example.com, your-email@example.com
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Assignment 2 Short Story
+  Assignment 2 Short Story -
+  Contributors:
+  s230284 Spyridon Pikoulas
+  s183478 Tobias Munch
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
