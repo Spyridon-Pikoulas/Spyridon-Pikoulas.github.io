@@ -3,5 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-images/*:Zone:Identifier
-notebooks/*:Zone:Identifier
+images/Map.png:Zone.Identifier
+images/newplot_fixed_small.png:Zone.Identifier
+notebooks/SE_analysis.ipynb:Zone.Identifier
