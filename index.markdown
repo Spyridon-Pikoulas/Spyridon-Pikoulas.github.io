@@ -11,10 +11,6 @@ title: "Home"
 
 In this article, we will explore the relationship between crime density and the socioeconomic status of San Francisco districts during the 2012-2016 period. By drawing demographic statistics for each district, we will calculate an index to represent the socioeconomic status. We will focus particularly on the Tenderloin district, as it represents a notable example of a low socioeconomic status combined with a high crime density.
 
-## San Fransico, Tenderloin
-
-$$scaled\;crime\;count = \frac{crime\;count}{socioeconomic\;index}$$
-
 ## Crime Density
 Crime numbers vary for each district, but not all districts have the same size and population density. Therefore, it's essential to consider crime density for these areas. Since San Francisco is densely populated, we will focus on the size of each district as the primary factor for this analysis, rather than incorporating population density.
 
@@ -42,7 +38,7 @@ Following our calculation of crime density, we have created a bar chart to bette
 ## Socioeconomic Status
 San Francisco is well-known for its significant socioeconomic disparities between its districts, ranking high among other US cities in this regard. To measure these differences, we computed a socioeconomic index for each district, where a higher index represents a lower socioeconomic status.
 
-By examining [this report of demographic statistics](https://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf) for each district in San Fransico , we derived rough yet valuable estimations of crucial factors that characterize the socioeconomic status of each district. In the following table, we have statistics about median household income and unemployment rates for each district:
+By examining [this report of demographic statistics](https://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf) for each district in San Fransico , we derived rough yet valuable estimations of crucial factors that characterize the socioeconomic status of each district for 2012-2016. In the following table, we have statistics about median household income and unemployment rates for each district:
 
 | Districts  | Household Income | Unemployment Rate (%) |
 |------------|------------------|-----------------------|
