@@ -40,7 +40,9 @@ Following our calculation of crime density, we have created a bar chart to bette
 <img src="/images/BarChart.png"  width="1000" height="400">
 
 ## Socioeconomic Status
-San Francisco is well-known for its significant socioeconomic disparities between its districts, ranking high among other US cities in this regard. To measure these differences, we computed a socioeconomic index for each district, where a higher index represents a lower socioeconomic status. By examining [this report of demographic statistics](https://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf) for each district in San Fransico , we derived rough yet valuable estimations of crucial factors that characterize the socioeconomic status of each district. The results can be in the two following tables.
+San Francisco is well-known for its significant socioeconomic disparities between its districts, ranking high among other US cities in this regard. To measure these differences, we computed a socioeconomic index for each district, where a higher index represents a lower socioeconomic status.
+
+By examining [this report of demographic statistics](https://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf) for each district in San Fransico , we derived rough yet valuable estimations of crucial factors that characterize the socioeconomic status of each district. In the following table, we have statistics about median household income and unemployment rates for each district:
 
 | Districts  | Household Income | Unemployment Rate (%) |
 |------------|------------------|-----------------------|
@@ -55,6 +57,8 @@ San Francisco is well-known for its significant socioeconomic disparities betwee
 | Bayview    | 45000            | 7                     |
 | Taraval    | 70000            | 4                     |
 
+Additionally, we also have information about education and poverty rates of each district.
+
 | Districts  | Higher Education (%) | Poverty Rate (%) |
 |------------|----------------------|------------------|
 | Tenderloin | 10                   | 20               |
@@ -67,7 +71,6 @@ San Francisco is well-known for its significant socioeconomic disparities betwee
 | Richmond   | 50                   | 9                |
 | Bayview    | 20                   | 15               |
 | Taraval    | 40                   | 11               |
-
 
 To calculate the index for each district, we normalized factors that positively influence the status and inverse normalized factors with a negative impact. Then, we applied this formula:
 $$status = 0.4*In+0.2*Po+0.2*Ed+0.2*Un $$ 
