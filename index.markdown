@@ -3,6 +3,10 @@ layout: continous
 title: "Home"
 ---
 
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 ## Introduction
 
 In this article, we will explore the relationship between crime density and the socioeconomic status of San Francisco districts during the 2012-2016 period. By drawing demographic statistics for each district, we will calculate an index to represent the socioeconomic status. We will focus particularly on the Tenderloin district, as it represents a notable example of a low socioeconomic status combined with a high crime density.
