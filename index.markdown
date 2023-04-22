@@ -70,7 +70,7 @@ Additionally, we also have information about education and poverty rates of each
 
 To calculate the index for each district, we normalized factors that positively influence the status and inverse normalized factors with a negative impact. Then, we applied this formula:
 
-$$status = 0.4*In+0.2*Po+0.2*Ed+0.2*Un $$ 
+$$status = 0.4*Income+0.2*Poverty+0.2*Education+0.2*Unemployment $$ 
 
 with varying weights for each factor. The outcomes of our calculations are displayed on the below choropleth map.
 
